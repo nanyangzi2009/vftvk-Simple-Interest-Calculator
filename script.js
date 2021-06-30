@@ -1,7 +1,7 @@
 function rateChange(){
   var r = document.getElementById("rate");
   var v = document.getElementById("rateValue");
-  v.innerHTML = (r.value/10).toString() + "%";
+  v.innerHTML = (r.value).toString() + "%";
 }
 
 function calulateInterest(){
@@ -11,7 +11,7 @@ function calulateInterest(){
     return;
   }
   var amount = parseInt(v);
-  var rate = document.getElementById("rate").value/10 ;
+  var rate = document.getElementById("rate").value ;
   var today = new Date();
   var years = Number(document.getElementById("year").value);
   var endyear = Number(today.getFullYear()) + years;

@@ -7,7 +7,8 @@ function rateChange(){
 function calulateInterest(){
   var v = document.getElementById('amount').value.toString();
   if(v=="" || (!isFinite(v)) || parseFloat(v)<0.01) {
-    alert("Please input a correct amount!");
+    alert("Please input a positive amount!");
+    document.getElementById('amount').focus();
     return;
   }
   var amount = parseInt(v);

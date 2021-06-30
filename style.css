@@ -1,4 +1,30 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+  background-color: black;
+  font-family:arial;
+}
 
 
+div{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 480px;
+  margin: auto;
+}
+
+h1{
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 36px;
+  color: grey;
+}
+
+table{
+  width: 400px;
+  margin: auto;
+  border-spacing: 5px 10px;
+}
+
+.bebold{
+  font-weight: bold;
+}
